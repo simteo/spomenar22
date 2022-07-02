@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  text-align: center;
+  background-color:white;
+}
+
+
+.vlasnik img{
+    width: 50vw;
+    height: auto;
+    padding-top: 5%;
+}
+
+
+.ram img {
+    width: 50vw;
+    height: auto;
+    padding-top: 5%;
+}
+
+.ram1 img {
+    width: 50vw;
+    height: auto;
+    padding: 50px;
+}
+
+.spomenar img{
+    width: auto;
+    height: 45vw;
+    padding: 30px;
+}
+
+
+.draw {
+    padding-top: 5%;
+}
+
+
+/* logo */
+
+#logo {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px; 
+  color: black;
+}
+
+
+#logo a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+/* navigacija */
+
+a{
+  text-decoration: none;
+}
+
+#nav {
+  position:static;
+  background-color: white;
+  top: 0;
+  display: flex;
+  justify-content: space-between; 
+  margin: 0;
+  padding: 28px;
+}
+
+#nav ul {
+  margin: ;
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav ul li {
+  padding-left: 80px;
+}
+
+#nav ul li a {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+/* projekat txt */
+
+.opis {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 60px;
+    padding-top: 15px;
+    color: #191919;
+    margin: 300px;
+    
+    
+}
+
+.opis2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 100px;
+}
+
+/* buttons */
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin: 50px 8px 70px 8px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
